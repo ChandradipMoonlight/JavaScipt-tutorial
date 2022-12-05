@@ -33,7 +33,7 @@ const sum = numbers.reduce((accumulator, currentValue, currentIndex) => accumula
 console.log(sum);
 
 const userCart = [
-    { productId: 1, productName: "Laptop", productPrice: "51000" },
+    { productId: 1, productName: "Laptop", productPrice: "41000" },
     { productId: 2, productName: "Mobile", productPrice: "11000" },
     { productId: 1, productName: "TV", productPrice: "21000" },
 ]
@@ -93,3 +93,36 @@ console.log("find user by userId using find() method!")
 console.log(getUserById);
 console.log("find user data by userName using find() method!");
 console.log(getUserByName);
+
+//---------------- every() method ---------------------------------------
+
+/**
+ * every() method return true or false
+ * 
+ * it except callback function (predicate)
+ * 
+ */
+
+console.log("______________ every() method ______________________");
+
+// it will return true if all product price is greater than 10000 rs else return false.
+const checkPrice = userCart.every(e => Number(e.productPrice) > 10000);
+console.log("Is all product having price greater than 10000 : " + checkPrice);
+
+//___________________________________ some() method _________________________
+
+console.log("____________________ some() method ____________________")
+    /**
+     * some() method return true if any one of the element of array satisfied condition 
+     * else return false.
+     */
+
+const isAnyNumEven = numArr.some(e => e % 2 === 0);
+console.log("is any number is even in array : " + isAnyNumEven);
+
+const isAnyProductPriceIsHigherThan50000 = userCart.some(e => e.productPrice > 50000);
+console.log(isAnyProductPriceIsHigherThan50000);
+
+//___________________________ fill() method _______________________________
+
+console.log("____________________ fill() method ______________________")
