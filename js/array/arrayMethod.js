@@ -125,4 +125,24 @@ console.log(isAnyProductPriceIsHigherThan50000);
 
 //___________________________ fill() method _______________________________
 
+// this method is used to replace element of array of for given range.
 console.log("____________________ fill() method ______________________")
+
+// this will replace element at 2, 3, 4, 5 with -1;
+// is modifies the original array
+
+const numbArr = [1, 2, 3, 6, 11, 5, 6];
+console.log("Array before fill() method : " + numbArr);
+numbArr.fill(-1, 2, 6);
+console.log("Array after fill() method()")
+console.log(numbArr);
+
+//_______________________ slice() method ___________________________
+
+// slice method is used to to delete and insert element in an array.
+
+// startIndex, delete, insert
+
+const num = [1, 2, 3, 4, 5];
+num.splice(1, 2, "item1", "item2", "item3"); // => 1, 2, "item1", "item2", "item3", 4, 5
+console.log(num);
