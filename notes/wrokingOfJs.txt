@@ -1,0 +1,31 @@
+compilation
+
+code execution
+
+why compilation
+
+how js code execute ?
+
+what is globle execution context?
+
+what is local execution context?
+
+closures?
+
+
+compilation pahse :
+---------------------
+
+1. Tokenizing :
+  it will create small chunk of codes.
+2. Parsing
+  chuncks get parsed. and generate ths Absrtact Sysntax tree (AST)
+3. excutable code Generation
+  from AST it will generate excutable code.
+
+why compilation : 
+              1. For Early error Checking.
+              2. Determining Apropriate Scope of variable.
+
+Scope
+TDZ => Temporal Dead Zone
