@@ -1,0 +1,24 @@
+keyword => var, let, const
+---------------
+var = 
+    1. we can redeclare the variable using var keyword.
+    ex. var name = "chandradip"; var name = "Dipak";
+
+
+
+
+
+let =>
+    1. we can not redeclare the variable it will give error but we can override the variable using
+        let keyword.
+    ex. let name = 'chandradip'; name = 'dipak';
+
+
+
+
+const => 
+    1. we can not change the value of the constant, or override it;
+    ex. const pi = 3.14;
+    
+    
+    

@@ -19,13 +19,13 @@ compilation pahse :
 1. Tokenizing :
   it will create small chunk of codes.
 2. Parsing
-  chuncks get parsed. and generate ths Absrtact Sysntax tree (AST)
-3. excutable code Generation
-  from AST it will generate excutable code.
+  chunks get parsed. and generate ths Abstract Syntax tree (AST)
+3. executable code Generation
+  from AST it will generate executable code.
 
 why compilation : 
               1. For Early error Checking.
-              2. Determining Apropriate Scope of variable.
+              2. Determining Appropriate Scope of variable.
 
 Scope
 TDZ => Temporal Dead Zone
