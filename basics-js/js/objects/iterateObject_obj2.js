@@ -16,11 +16,16 @@ for (let key in personalData) {
 }
 
 const arrayOfKeys = Object.keys(personalData);
+console.log("________arrayOfKeys___________")
 console.log(arrayOfKeys);
+
+console.log("________arrayOfValues___________")
 const arrayOfValues = Object.values(personalData);
 console.log(arrayOfValues);
+
+console.log("________ arrayOfEntries ___________")
 const arrayOfEntries = Object.entries(personalData);
-console.log("Entries of Objects : " + arrayOfEntries);
+console.log(arrayOfEntries);
 
 
 // Iterating of an Object using for of loop

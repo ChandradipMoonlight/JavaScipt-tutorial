@@ -9,7 +9,7 @@ const personalData = {
     [key2]: val2
 }
 
-// personalData[key1] = val1;
-// personalData[key2] = val2;
+personalData[key1] = val1;
+personalData[key2] = val2;
 
 console.log(personalData);
