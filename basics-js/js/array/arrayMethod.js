@@ -8,24 +8,23 @@ const users = [
     { firstName: "Nivrutee", age: 20 },
 ]
 
-//1. for each
+// 1. for each
 
-// const getResult = (num, index) => console.log(`result : ${num*2} and index : ${index+1}`);
+const getResult = (num, index) => console.log(`result : ${num*2} and index : ${index+1}`);
 
-// numbers.forEach(getResult);
+numbers.forEach(getResult);
 
-// numbers.forEach((num, index) => console.log(num * 4));
+numbers.forEach((num, index) => console.log(num * 4));
+numbers.forEach((ele, i)=>console.log(`number : ${ele*2}, Index : ${i}`));
 
-
-
-// users.forEach((user) => console.log(user.firstName));
+users.forEach((user) => console.log(user.firstName));
 
 // 2. map()
 
-// const squareNumber = numbers.filter(num => num % 2 === 0)
-//     .map(n => n * 2);
+const squareNumber = numbers.filter(num => num % 2 === 0)
+    .map(n => n * 2);
 
-// const userNameArray = users.map(user => user.firstName)
+const userNameArray = users.map(user => user.firstName)
 
 // 3. reduce()
 
@@ -137,7 +136,7 @@ numbArr.fill(-1, 2, 6);
 console.log("Array after fill() method()")
 console.log(numbArr);
 
-//_______________________ slice() method ___________________________
+//_______________________ splice() method ___________________________
 
 // slice method is used to to delete and insert element in an array.
 
@@ -146,3 +145,24 @@ console.log(numbArr);
 const num = [1, 2, 3, 4, 5];
 num.splice(1, 2, "item1", "item2", "item3"); // => 1, 2, "item1", "item2", "item3", 4, 5
 console.log(num);
+
+
+function totalVotes(arr) {
+    return arr.filter(a=>a.voted).length;
+ }
+ 
+ var voters = [
+     {name:'Bob' , age: 30, voted: true},
+     {name:'Jake' , age: 32, voted: true},
+     {name:'Kate' , age: 25, voted: false},
+     {name:'Sam' , age: 20, voted: false},
+     {name:'Phil' , age: 21, voted: true},
+     {name:'Ed' , age:55, voted:true},
+     {name:'Tami' , age: 54, voted:true},
+     {name: 'Mary', age: 31, voted: false},
+     {name: 'Becky', age: 43, voted: false},
+     {name: 'Joey', age: 41, voted: true},
+     {name: 'Jeff', age: 30, voted: true},
+     {name: 'Zack', age: 19, voted: false}
+ ];
+ console.log(totalVotes(voters)); // 7
