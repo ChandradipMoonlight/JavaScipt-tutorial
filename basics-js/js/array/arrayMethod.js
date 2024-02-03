@@ -74,6 +74,7 @@ console.log(sortedProductHighToLow);
 //------------------ find() -----------------------------------
 /**
  * find() method
+ * Returns the value of the first element in the array where predicate is true, and undefined otherwise
  */
 
 console.log("*** --------find() method of array--------- ******");
@@ -123,7 +124,7 @@ const isAnyProductPriceIsHigherThan50000 = userCart.some(e => e.productPrice > 5
 console.log(isAnyProductPriceIsHigherThan50000);
 
 //___________________________ fill() method _______________________________
-
+// Changes all array elements from `start` to `end` index to a static `value` and returns the modified array
 // this method is used to replace element of array of for given range.
 console.log("____________________ fill() method ______________________")
 

@@ -27,5 +27,5 @@ person1.setName("Nivruttee", "Shivankar");
 
 console.log(person1.getFullName);
 
-person1.setFullName = "Raja Ram";
+person1.setFullName = "Raja Ram"; // this will call set setFullName() method
 console.log(person1.firstName);

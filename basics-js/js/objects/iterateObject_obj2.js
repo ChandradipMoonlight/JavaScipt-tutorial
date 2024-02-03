@@ -32,3 +32,4 @@ console.log(arrayOfEntries);
 for (let key of Object.keys(personalData)) {
     console.log(key);
 }
+

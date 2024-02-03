@@ -15,6 +15,7 @@ class Person {
         this.firstName = firstName;
         this.lastNme = lastNme;
     }
+    // set method is used to set the value in property this is setter method of class
     set setFullName(fullName) {
         const [firstName, lastNme] = fullName.split(" ");
         this.firstName = firstName;

@@ -24,14 +24,14 @@
  * reference to the function
  */
 
-// const userMethods = {
-//     about: function() {
-//         return `${this.firstName, this.lastName} is ${this.age} years old.`;
-//     },
-//     is18: function() {
-//         return this.age >= 18;
-//     }
-// }
+const userMethods = {
+    about: function() {
+        return `${this.firstName, this.lastName} is ${this.age} years old.`;
+    },
+    is18: function() {
+        return this.age >= 18;
+    }
+}
 
 // function createUser(firstName, lastName, age, email, address) {
 //     const user = {};
@@ -67,7 +67,6 @@
 
 // const user1 = createUser("Chandradip", "Shivankar", 18, "chandra@gmail.com", "Jalna");
 
-// console.log(user1);
 // console.log(user1.is18());
 // console.log(user1.about());
 
@@ -91,14 +90,17 @@ function createUser(firstName, lastName, age, email, address) {
 
     return user;
 }
+
 createUser.prototype.is18 = function() {
     return this.age >= 18;
 }
+
 createUser.prototype.about = function() {
     return `${this.lastName, this.lastName} is ${this.age} old.`;
 }
-const user1 = createUser("Chandradip", "Shivankar", 18, "chandra@gmail.com", "Jalna");
 
-console.log(user1);
-console.log(user1.is18());
-console.log(user1.about());
+const user2 = createUser("Chandradip", "Shivankar", 18, "chandra@gmail.com", "Jalna");
+
+console.log(user2);
+console.log(user2.is18());
+console.log(user2.about());

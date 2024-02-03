@@ -1,14 +1,14 @@
-// Intro to varibles
+// Intro to variables
 
 // variable can store some information
-// we can use the informatino later
+// we can use the information later
 // we can change the information later
 
 // 1. declaration of variables
 
-var firstName = "Chandradip"; // or => 'chandradip'
+var firstName = "Chandradip"; // op => 'chandradip'
 
-// we can use the informatino later
+// we can use the information later
 console.log(firstName);
 
 firstName = "DIPAK";

@@ -1,7 +1,7 @@
 // sets 
 /**
  * set is iterable
- * stored dta
+ * stored data
  * set also has ite own methods
  * No index based access
  * order is not guaranteed
