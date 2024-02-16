@@ -1,6 +1,6 @@
 
 
-// // Data types in javaScript(primitive data types)
+ //? Data types in javaScript(primitive data types)
 
 // String "Chandradip"
 // Number 2, 3
@@ -41,5 +41,3 @@ let str2 = "Shivankar";
 
 let str = str1 + " " + str2;
 console.log("Getting full name after concatenation : " + str);
-
-let 
