@@ -2,54 +2,189 @@
 
 Welcome to the JavaScript Beginning to Mastery course! This syllabus is designed to take you from the basics of JavaScript programming to a comprehensive understanding of its core concepts, including DOM manipulation, asynchronous programming, object-oriented JavaScript, and more. By the end of this course, you'll have the skills to build dynamic web applications and understand the fundamentals of JavaScript programming.
 
-## Course Outline
+## JavaScript vs EcmaScript 
+- Install Visual Studio Code (VSCode) and run your first program.
 
-1. **Introduction to JavaScript**
-   - JavaScript vs EcmaScript
-   - Setting up development environment with VSCode
-   - Running your first program
+## Basics of Programming in JavaScript
+- Hello world program
+- Declare variable using var
+- More about variable
+- Let
+- Const
+- String Indexing
+- Useful string methods
+- Template Strings
+- Null, undefined, BigInt, typeof
+- Booleans and Comparison Operator
+- Truthy and Falsy Values
+- If else statement
+- Ternary Operator
+- && || operator
+- Nested if else
+- If elseif else
+- Switch statement
+- While loop 
+- While loop examples
+- For loop
+- For loop examples
+- Break and continue keyword
+- Do while loop
 
-2. **Basics of Programming in JavaScript**
-   - Hello world program
-   - Variable declaration using `var`, `let`, `const`
-   - String manipulation and methods
-   - Null, undefined, BigInt, typeof
-   - Boolean and comparison operators
-   - Control flow statements: if-else, ternary operator, switch statement, loops
+## Arrays in JavaScript
+- Intro to arrays
+- Push pop shift unshift
+- Primitive vs reference data types
+- Clone array & spread operator
+- For loop
+- Use const for creating arrays
+- While loop in array
+- For of loop
+- For in loop
+- Array destructuring
 
-3. **Arrays and Objects**
-   - Introduction to arrays and array methods
-   - Primitive vs reference data types
-   - Introduction to objects, object methods, and properties
-   - Object-oriented JavaScript and prototypal inheritance
+## Objects in JavaScript
+- Intro to objects
+- Dot vs Bracket Notation
+- Iterate objects
+- Computed properties
+- Spread operator in objects
+- Object Destructuring
+- Objects inside Array
+- Nested Destructuring
 
-4. **Functions and Scope**
-   - Function declaration vs expression vs arrow functions
-   - Scope: lexical scope, block scope vs function scope
-   - Default parameters, rest parameters, parameter destructuring
-   - Closures and their practical examples
+## Functions in JavaScript
+- Function declaration
+- Function Expression
+- Arrow Functions
+- Function declarations are hoisted (covered in great detail, later in this course)
+- Function inside function
+- Lexical Scope
+- Block Scope Vs Function Scope
+- Default Parameters
+- Rest Parameters
+- Parameter Destructuring
+- Very brief intro to callback functions(covered in great detail, later in this course)
+- Functions returning Functions
 
-5. **DOM Manipulation**
-   - HTML and CSS crash course
-   - Selecting elements, manipulating styles and attributes
-   - Working with the DOM tree, creating and appending elements
-   - Event handling, event bubbling, event delegation
+## Very Important Array Methods
+- Foreach method
+- Map method
+- Filter
+- Reduce
+- Sort
+- Find
+- Every
+- Some
+- Fill method
+- Splice method
 
-6. **Asynchronous JavaScript**
-   - Understanding synchronous vs asynchronous programming
-   - setTimeout(), setInterval(), and asynchronous callbacks
-   - Promises, chaining, error handling
-   - Fetch API for making HTTP requests
-   - Async/await for handling asynchronous code
+## More useful things 
+- Iterables
+- Sets
+- Maps
+- Object.assign
+- Optional chaining
 
-7. **ES6 Modules**
-   - Introduction to ES6 modules for code organization
+## Object Oriented JavaScript / Prototypal Inheritance
+- Methods
+- This keyword, Window object
+- Call, apply and bind method
+- Some warnings
+- This inside arrow functions
+- Short syntax for methods
+- Factory functions & discuss some memory related problems
+- First solution to that problem
+- Why that solution isn’t that great
+- What is __proto__, [[prototype]]
+- What is prototype
+- Use prototype
+- New keyword
+- Constructor function with new keyword
+- More discussion about proto and prototype
+- Class keyword
+- Example using class keyword
+- Super keyword
+- Method overriding
+- Getters and setters
+- Static methods and properties
 
-8. **Congratulations and Next Steps**
-   - Multiple projects to practice your skills
-   - Interview questions for preparation
-   - Web performance optimization techniques
-   - Testing strategies for JavaScript applications
+## How JavaScript Works
+- Global Execution context
+- This and window in global execution context
+- Hoisting
+- Are let and const are hoisted ? What is a reference Error ? 
+- Function execution context
+- Scope chain and lexical environment
+
+## Closures
+- Intro to closures
+- Closure example 1
+- Closure Example 2
+- Closure Example 3
+
+## DOM Tutorial
+- HTML and CSS Crash course (Around 30-40 minutes)
+- Async vs defer
+- Select elements using id
+- querySelector
+- textContent & innerText
+- Change the styles of elements using js
+- Get and set attributes
+- Select multiple elements and loop through them
+- innerHTML
+- Deeply understand dom tree, root node, element nodes, text nodes
+- classList
+- Add new elements to page
+- Create elements
+- Insert adjacent elements
+- Clone nodes
+- More methods to add elements on page
+- How to get the dimensions of the element
+
+## Events
+- Intro to events
+- This keyword inside eventListener callback
+- Add events on multiple elements
+- Event object
+- How event listener works
+- Practice with events
+- Create demo project
+- More events
+- Event bubbling
+- Event Capturing
+- Event delegation 
+- Create Project using event delegation
+
+## Asynchronous JavaScript
+- Is Javascript a synchronous or asynchronous programming language ? 
+- setTimeout()
+- setTimeout() with 0 millisecond
+- Callback Queue
+- setInterval and create little project with setInterval
+- Understand callbacks in general
+- Callbacks in asynchronous programming 
+- Callback Hell and Pyramid of dom
+
+## Promises, network request
+- Intro to promises
+- Microtask Queue
+- Function that returns promise
+- Promise and settimeout
+- Promise.resolve and more about then method
+- Convert nested Callbacks to flat code using promises
+- Intro to Ajax, HTTP Request
+- XHR requests
+- Error handling in XHR requests
+- XHR request Chaining 
+- Promisifying XHR requests and chaining using then method
+- Fetch API
+- Error Handling in Fetch API
+- Consume Promises with async and Await
+
+## ES6 (ES2015) Modules
+- Split code into multiple files using ES6 modules.
+
+
 
 ## Projects
 - Create a To-Do List application
