@@ -23,7 +23,16 @@ class User {
 }
 
 const user1 = new User("Chandradip", 23, "info@gmail.com");
+console.log(Object.getPrototypeOf(user1)); // constructor, is18, about 
 
-console.log(user1);
 
-console.log(user1.about());
+console.log(user1); // it will print object as below
+
+// User {
+//     firstName: 'Chandradip',
+//     age: 23,
+//     email: 'info@gmail.com',
+//     gender: 'Male'
+//   }
+
+console.log(user1.about()); // Chandradip is 23 old.

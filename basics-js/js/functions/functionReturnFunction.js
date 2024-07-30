@@ -8,8 +8,9 @@ function myFunc() {
 }
 
 const ans = myFunc();
-console.log(ans);
-console.log(ans());
+console.log(ans); // [Function: greet]
+
+console.log(ans()); // hello
 
 function myFunc1() {
     return () => "Hare Krishna";

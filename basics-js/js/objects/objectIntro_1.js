@@ -30,9 +30,9 @@ console.log("get property of object using [] operator : " + personData["name"]);
 
 personData["person email id"] = ["dipak@gmail.com", "dipak.tech@gmail.com"];
 
-console.log(personData["person email id"]);
+console.log(personData["person email id"]); //[ 'dipak@gmail.com', 'dipak.tech@gmail.com' ]
 
-const key = "mobile number";
+const key = "mobile number"; //
 
 personData[key] = "9145388092";
 console.log(personData)

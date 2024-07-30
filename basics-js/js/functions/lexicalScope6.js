@@ -9,6 +9,7 @@ function myApp() {
     let myVar = "hello!";
 
     function myFunc() {}
+    
     const myFun2 = function() {
         console.log(myVar);
     }

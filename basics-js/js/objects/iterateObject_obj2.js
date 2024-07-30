@@ -17,15 +17,29 @@ for (let key in personalData) {
 
 const arrayOfKeys = Object.keys(personalData);
 console.log("________arrayOfKeys___________")
-console.log(arrayOfKeys);
+console.log(arrayOfKeys); //[ 'firstName', 'lastName', 'age', 'person hobbies' ]
+
 
 console.log("________arrayOfValues___________")
 const arrayOfValues = Object.values(personalData);
-console.log(arrayOfValues);
+console.log(arrayOfValues); 
+//[
+    // 'Chandradip',
+    // 'Shivankar',
+    // 26,
+    // [ 'Cricket', 'Reading of books', 'Music' ]
+//   ]
 
 console.log("________ arrayOfEntries ___________")
 const arrayOfEntries = Object.entries(personalData);
 console.log(arrayOfEntries);
+
+// [
+//     [ 'firstName', 'Chandradip' ],
+//     [ 'lastName', 'Shivankar' ],
+//     [ 'age', 26 ],
+//     [ 'person hobbies', [ 'Cricket', 'Reading of books', 'Music' ] ]
+//   ]
 
 
 // Iterating of an Object using for of loop

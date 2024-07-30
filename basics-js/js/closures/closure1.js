@@ -5,16 +5,16 @@
  */
 
 
-// function printFullName(firstName, lastName) {
-//     function printName() {
-//         console.log(firstName, lastName);
-//     }
-//     return printName;
-// }
+function printFullName(firstName, lastName) {
+    function printName() {
+        console.log(firstName, lastName);
+    }
+    return printName;
+}
 
-// const ans = printFullName("Chandradip", "Shivankar");
+const ans = printFullName("Chandradip", "Shivankar");
 
-// ans();
+ans(); // Chandradip Shivankar
 
 function myFunction(power) {
     return function(number) {
@@ -24,13 +24,13 @@ function myFunction(power) {
 
 const power = myFunction(2);
 
-console.log(power(3))
+console.log(power(3)) // 9
 
 const getKube = power => number => number ** power;
 
-// console.log(getKube(3)(2));
+console.log(getKube(3)(2)); // 8
 const cube = getKube(3);
-console.log(cube(2));
+console.log(cube(2)); // 8
 
 function func() {
     let count = 0;
@@ -62,5 +62,6 @@ let funcImp = () => {
 // myFunc1();
 
 const result = funcImp();
-result();
-result();
+result(); // Hi, you called me.
+
+result(); // Already was called.

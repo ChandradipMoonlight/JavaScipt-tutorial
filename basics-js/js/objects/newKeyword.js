@@ -55,6 +55,9 @@ CreateUser.prototype.about = function() {
 }
 
 const user1 = new CreateUser("Chandradip", "Shivankar", "chandradip@gmail.com", 25, { city: "Jalna", state: "MH", pinCode: 431206 });
+// above is same as Object.create(createUser.prototype); means if we use new keyword we don't need to set functions prototype in objects proto 
+// it will create that functionality automatically
+
 console.log(user1);
 
 console.log(user1.about());
@@ -73,3 +76,5 @@ for (let key in user1) {
 
 const numbers = [1, 2, 3, 4, 5];
 console.log(numbers, numbers.__proto__);
+
+console.log(Object.getPrototypeOf(user1));

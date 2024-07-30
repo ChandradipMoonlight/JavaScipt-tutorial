@@ -12,4 +12,4 @@ const vehicle = {
 // console.log(brandName);
 
 let { brandName, carModel, ...restObjPro } = vehicle;
-console.log(restObjPro);
+console.log(restObjPro); // { yearOfManufacturing: 2009, owner: 'Ramu' }

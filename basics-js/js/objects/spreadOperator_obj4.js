@@ -5,15 +5,15 @@
 const arr1 = [1, 2, 3, 4];
 const arr2 = [5, 6, 7, 8];
 const clonedArr = [...arr1, ...arr2];
-console.log(arr1 === clonedArr);
-console.log("original array1 : " + arr1);
-console.log("Cloned Array : " + clonedArr);
+console.log(arr1 === clonedArr); //false 
+console.log("original array1 : " + arr1); // 1, 2, 3, 4
+console.log("Cloned Array : " + clonedArr); // 1,2,3,4,5,6,7,8
 
 //2. to spread the element or data
 
 const name1 = "DIPAK";
 const newName = [...name1]; //o/p => ['D', 'I', 'P', 'A', 'K']
-console.log(newName);
+console.log(newName); // [ 'D', 'I', 'P', 'A', 'K' ]
 
 //clone of Object
 

@@ -15,12 +15,12 @@ function helle() {
 }
 
 console.log("Get Function name :")
-console.log(helle.name); //
+console.log(helle.name); // hello
 
 // we can add own property to the function because it is consider as object as well
 
 helle.myProperty = "Function can act as Object";
-console.log(helle.myProperty);
+console.log(helle.myProperty); // Function can act as Object
 
 
 //Function provides free space called as prototype

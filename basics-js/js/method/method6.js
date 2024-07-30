@@ -9,7 +9,7 @@ const obj1 = {
 //     key3: "value3",
 // }
 
-const obj2 = Object.create(obj1); // obj2 will store obj2 as [[Prototype]]
+const obj2 = Object.create(obj1); // obj1 will get store into obj2 as [[Prototype]]
 
 obj2.key3 = "value3";
 

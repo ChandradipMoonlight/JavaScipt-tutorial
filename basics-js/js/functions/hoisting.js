@@ -4,12 +4,16 @@
  * 
  */
 
-// hello();
+hello(); // hello // this is because of hoisting it will work only in function declaration
 
-// function hello() {
-//     console.log("Hello");
-// }
+function hello() {
+    console.log("Hello");
+}
 
-console.log(hello)
+console.log(greet); // undefined
 
-var hello = "Hello World";
+var greet = "Hello World";
+
+
+console.log(f_name); // uncautch type error    Cannot access 'f_name' before initialization
+let f_name = "Chandradip";
