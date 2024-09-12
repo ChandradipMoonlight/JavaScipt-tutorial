@@ -2,6 +2,21 @@
 console.log("Script start.")
 const bucket = ['coffee', 'chips', "vegetables", "salt", "rice"];
 
+// const result = new Promise((resolve, reject)=> {
+//     if(bucket.includes("vegitables") && bucket.includes("salt") && bucket.includes("Rice")) {
+//         resolve("Fride Rece");
+//     } else {
+//         reject(new Error("Sothing Missing from bucket!"));
+//     }
+// });
+
+// result.then(
+//     onSuccess=> console.log(`lets eat ${onSuccess}`),
+//     onError => console.log(`sorry! ${onError}`)
+// )
+
+// above and below two approach
+
 const result = new Promise((resolve, reject) => {
     if (bucket.includes("rice") && bucket.includes("vegetables") && bucket.includes("salt")) {
         resolve({ value: "friedRice" });

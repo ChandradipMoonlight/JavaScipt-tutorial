@@ -9,7 +9,7 @@
 
 //1. ""
 
-let firstName = ""; // or null, 0, undefined,
+let firstName = ""; //  null, 0, undefined,
 
 if(firstName) {  // false
     console.log(firstName);

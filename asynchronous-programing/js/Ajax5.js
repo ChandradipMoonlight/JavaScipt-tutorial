@@ -6,6 +6,9 @@
  * using any technologies on the client side.
  * to create of the asynchronous web application.
  * 
+ * With Ajax, web application send and request data from server asynchrously (in the background)
+ * without interfering with the display and behaviour of the existing page
+ * 
  * HTTP Request.
  * 
  * we do not use data in xml formate anymore we use json now.
