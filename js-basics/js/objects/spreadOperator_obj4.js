@@ -28,6 +28,8 @@ const obj2 = {
     key1: 0,
 }
 
+
+//? when we copy array in object using spread operator key will be its index and value will be element of that index
 const newObject = {
     ...obj1,
     ...obj2,

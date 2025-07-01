@@ -1,0 +1,9 @@
+p {
+    text-align: center;  /* left==start, right == end */
+    /* text-decoration: line-through; */
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}

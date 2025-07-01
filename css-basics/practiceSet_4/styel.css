@@ -1,0 +1,46 @@
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#navbar {
+    background-color: #050b12;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 200px;
+
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: rgb(211, 145, 21);
+    font-size: 25px;
+}
+
+input {
+    color: black;
+}
+
+#box1 {
+    background-color: rgba(244, 34, 00, 0.5);
+}
+
+#box2 {
+    background-color: rgba(5, 39, 43, 0.5);
+}
+
+#box3 {
+    background-color: rgb(153, 116, 51, 0.5);
+}
